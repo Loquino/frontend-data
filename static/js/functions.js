@@ -69,7 +69,6 @@ function useData (){
         // // controleren of de loop werkt. 
         // console.log(restOfDataWithSize);
     
-    
     // Specifieke nieuwe data values zetten in een variabel in deze case: elment.size & elment.pic
     let ownLeng = restOfData.map(element => {
         return element.size;
