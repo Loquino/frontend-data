@@ -8,7 +8,6 @@ function useData (){
     let dataArray = results.map(result => result.lengte.value);
     //console.log(dataArray)
     
-
     //Van de data haal alle alleen de Afbeeldingen op
     let dataPicLink = results.map(result => result.afb.value);
     
@@ -49,9 +48,7 @@ function useData (){
     arr = arr.map(Number);
         // // controleer of de data
         // console.log(arr);
-    
-    
-    
+
     // Verschoonde data transformeren en plaatsen in een nieuwe data -> in een nieuwe objecten. (code van Victor).
     const restOfData = results.map(item => {
         let newArr = {};
